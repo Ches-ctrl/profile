@@ -1,0 +1,87 @@
+* {
+  font-family: Open Sans;
+}
+
+body {
+  background-image: url("../images/Windfarms.jpg");
+  background-size: 100%;
+  font-family: Space grotesk;
+  background-color: rgb(241, 180, 187);
+  color: 1F4172;
+  padding: 50px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-size: 40;
+  color: #ffffff;
+}
+
+li {
+  display: inline;
+  padding: 25px;
+  font-size: 18px;
+}
+
+ul {
+  padding: 0
+}
+
+p {
+  font-weight: bold;
+  color: #190482;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  color: #190482;
+}
+
+i {
+  font-size: 50px;
+}
+
+a:hover {
+  color: #fb9528;
+}
+
+.card {
+  background-color: white;
+  padding: 5px;
+  width: 1000px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid #EAEAEA;
+  }
+
+.text {
+  width: 700px;
+  text-align: center;
+  margin: auto;
+}
+
+.multicolor-text:hover {
+  background: linear-gradient(to right, #FF6347, #FFD700, #7FFF00, #1E90FF, #FF6347, #FFD700); /* Define the gradient colors */
+  -webkit-background-clip: text; /* Clip the text to the background gradient */
+  background-clip: text;
+  color: transparent; /* Make the text transparent */
+  transition: background-position 3s; /* Add a smooth transition */
+  background-size: 400% 100%; /* Expand the gradient width to create animation */
+  background-position: 100% 0; /* Move the gradient to create the shifting effect */
+  animation: rainbow 3s linear infinite;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; } /* Move the gradient from start to end */
+}
+
+#profile-pic {
+  height: 200;
+  width: 200;
+  border-radius: 50%;
+  max-height: 100%;
+}
